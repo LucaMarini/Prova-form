@@ -1,0 +1,50 @@
+h1 {
+font-family: "Tahoma", "sans-serif";
+color: 310D20;
+padding-top: 1em;
+}
+body{
+background-color: F3FCF0;
+}
+header{
+	text-align: center;
+}
+.linknav{
+	size: 15dp;
+	display: inline-block;
+	color: 	#F3FCF0;
+	padding: 10px;
+	background: #696969;
+	text-decoration: none;
+}
+.linknav:hover {
+    background-color: #F3FCF0;
+    color: #696969;
+	font-weight: bold;
+	text-decoration: none;
+}
+nav{
+	background: #F3FCF0;
+}
+h3{
+	padding: 3.5em;
+}
+footer{
+	color: F3FCF0;
+    background-color: 310D20;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+form{
+	font-size: 17px;
+}
+.one{
+	 color: #CCFFFF;
+	text-decoration: none;
+}
+.one:hover{
+	 color: #FF2222;
+	text-decoration: none;
+}
