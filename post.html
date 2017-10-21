@@ -1,0 +1,40 @@
+<html>
+<head>
+<title>Post</title>
+<link rel="stylesheet" href="styleindex.css" type="text/css" />
+</head>
+<body>
+<h1 align="center">Modulo con post</h1>
+<header>
+<nav align="center"> 
+    <a class="linknav" href="index.html">Home</a>
+    <a class="linknav" href="get.html">Get</a>
+    <a class="linknav" href="post.html">Post</a>
+    <a class="linknav" href="server.php">Server</a>
+</nav>
+</header>
+<br><br>
+<form align="center" action="post.php" method="post">
+Nome <input type="text" name="nome" size="20">
+<br><br>
+Cognome <input type="text" name="cognome" size="20">
+<br><br>
+Sesso: 
+<input type="radio" name="genere" value="maschio" checked>Maschio
+<input type="radio" name="genere" value="femmina">Femmina
+<input type="radio" name="genere" value="altro">Altro<br>
+<br>
+E-mail <input type="text" name="email" size="30"><br><br>
+Password <input type="password" name="password" size="30"><br><br>
+Conferma password <input type="password" name="passconferma" size="30"><br><br>
+<input type="submit" name="invio" value="Registra" style="width:100px; height:40px;" />
+<input type="reset" name="cancella" value="Annulla" style="width:100px; height:40px;" />
+</form>
+<br><br>
+<footer>
+<p align="center">
+Copyright &copy; <a class="one" href="https://github.com/LucaMarini">Luca Marini</a> e <a class="one" href="https://github.com/AndreaMontinovo">Andrea Montinovo</a>
+</p>
+</footer>
+</body>
+</html>
